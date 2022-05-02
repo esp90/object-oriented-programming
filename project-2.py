@@ -22,7 +22,7 @@ from alive_progress import alive_bar
 head = {"USER-AGENT": "ESTHER PARK'S MEDIA RECOMMENDATION PROJECT V.1"}
 
 
-apikey = "Cs89y7YzP8ln3KNNkkbYcQdW6lZ5fzfF"
+apikey = "myapikey"
 book_url = f"https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key={apikey}"
 movie_url = f"https://api.nytimes.com/svc/movies/v2/reviews/picks.json?api-key={apikey}"
 article_url = f"https://api.nytimes.com/svc/mostpopular/v2/viewed/30.json?api-key={apikey}"
